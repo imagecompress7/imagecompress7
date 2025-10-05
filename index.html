@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ToolKit Pro - Image & PDF Tools</title>
+    <title>ToolKit Pro - Your All-in-One File Processing Solution</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         :root {
@@ -63,6 +63,14 @@
             gap: 12px;
             font-size: 1.8rem;
             font-weight: 700;
+        }
+
+        .logo a {
+            color: white;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 12px;
         }
 
         .logo-icon {
@@ -478,17 +486,17 @@
         <div class="container">
             <div class="header-content">
                 <div class="logo">
-                    <span class="logo-icon">🛠️</span>
-                    <span>ToolKit Pro</span>
+                    <a href="index.html">
+                        <span class="logo-icon">🛠️</span>
+                        <span>ToolKit Pro</span>
+                    </a>
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Image Tools</a></li>
-                        <li><a href="#">PDF Tools</a></li>
-                        <li><a href="#">Pricing</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#tools">Tools</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
                 <div class="auth-buttons">
@@ -510,8 +518,8 @@
                     <h1>All Your File Processing Tools in One Place</h1>
                     <p>Optimize, convert, edit, and manage your images and PDFs with our powerful online toolkit. Fast, secure, and completely free to use.</p>
                     <div class="hero-buttons">
-                        <a href="#" class="btn btn-primary">Get Started Free</a>
-                        <a href="#" class="btn btn-outline">View All Tools</a>
+                        <a href="#tools" class="btn btn-primary">Explore Tools</a>
+                        <a href="#features" class="btn btn-outline">Learn More</a>
                     </div>
                 </div>
                 <div class="hero-image">
@@ -531,7 +539,7 @@
     </section>
 
     <!-- Features Section -->
-    <section class="features">
+    <section class="features" id="features">
         <div class="container">
             <div class="section-header">
                 <h2>Why Choose ToolKit Pro?</h2>
@@ -567,60 +575,50 @@
     </section>
 
     <!-- Tools Section -->
-    <section class="tools">
+    <section class="tools" id="tools">
         <div class="container">
             <div class="section-header">
                 <h2>Popular Tools</h2>
                 <p>Discover our most used image and PDF processing utilities</p>
             </div>
             <div class="tools-grid">
+                <!-- Image Compressor Tool - YAHAN ADD KIYA HAI -->
                 <div class="tool-card">
                     <img src="https://cdn-icons-png.flaticon.com/512/2920/2920277.png" alt="Image Compressor Icon">
                     <h3>Image Compressor</h3>
                     <p>Reduce image size without losing quality. Supports PNG, JPG, and more.</p>
-                    <a href="#" class="btn btn-primary">Try Now</a>
+                    <a href="image-compressor.html" class="btn btn-primary">Try Now</a>
                 </div>
+
                 <div class="tool-card">
                     <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF to JPG Icon">
                     <h3>PDF to JPG</h3>
                     <p>Convert PDF pages to high-quality JPG images</p>
-                    <a href="#" class="btn btn-primary">Try Now</a>
+                    <a href="#" class="btn btn-primary">Coming Soon</a>
                 </div>
                 <div class="tool-card">
                     <img src="https://cdn-icons-png.flaticon.com/512/992/992651.png" alt="Image Resizer Icon">
                     <h3>Image Resizer</h3>
                     <p>Resize images to any dimension while maintaining quality</p>
-                    <a href="#" class="btn btn-primary">Try Now</a>
+                    <a href="#" class="btn btn-primary">Coming Soon</a>
                 </div>
                 <div class="tool-card">
                     <img src="https://cdn-icons-png.flaticon.com/512/2997/2997896.png" alt="PDF Merger Icon">
                     <h3>PDF Merger</h3>
                     <p>Combine multiple PDF files into a single document</p>
-                    <a href="#" class="btn btn-primary">Try Now</a>
+                    <a href="#" class="btn btn-primary">Coming Soon</a>
                 </div>
                 <div class="tool-card">
                     <img src="https://cdn-icons-png.flaticon.com/512/2997/2997820.png" alt="JPG to PDF Icon">
                     <h3>JPG to PDF</h3>
                     <p>Convert JPG images to PDF documents</p>
-                    <a href="#" class="btn btn-primary">Try Now</a>
+                    <a href="#" class="btn btn-primary">Coming Soon</a>
                 </div>
                 <div class="tool-card">
                     <img src="https://cdn-icons-png.flaticon.com/512/1067/1067566.png" alt="PDF Protect Icon">
                     <h3>PDF Protect</h3>
                     <p>Add password protection to your PDF files</p>
-                    <a href="#" class="btn btn-primary">Try Now</a>
-                </div>
-                <div class="tool-card">
-                    <img src="https://cdn-icons-png.flaticon.com/512/1048/1048942.png" alt="Image Editor Icon">
-                    <h3>Image Editor</h3>
-                    <p>Crop, rotate, flip and apply filters to images</p>
-                    <a href="#" class="btn btn-primary">Try Now</a>
-                </div>
-                <div class="tool-card">
-                    <img src="https://cdn-icons-png.flaticon.com/512/2997/2997928.png" alt="PDF to Word Icon">
-                    <h3>PDF to Word</h3>
-                    <p>Convert PDF files to editable Word documents</p>
-                    <a href="#" class="btn btn-primary">Try Now</a>
+                    <a href="#" class="btn btn-primary">Coming Soon</a>
                 </div>
             </div>
         </div>
@@ -631,12 +629,12 @@
         <div class="container">
             <h2>Ready to Optimize Your Workflow?</h2>
             <p>Join thousands of users who save time with our powerful file processing tools</p>
-            <a href="#" class="btn btn-primary">Get Started Now</a>
+            <a href="#tools" class="btn btn-primary">Get Started Now</a>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer>
+    <footer id="contact">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-column">
@@ -652,7 +650,7 @@
                 <div class="footer-column">
                     <h3>Image Tools</h3>
                     <ul>
-                        <li><a href="#">Compress Image</a></li>
+                        <li><a href="image-compressor.html">Compress Image</a></li>
                         <li><a href="#">Resize Image</a></li>
                         <li><a href="#">Crop Image</a></li>
                         <li><a href="#">Convert Format</a></li>
@@ -720,4 +718,4 @@
         });
     </script>
 </body>
-  </html>
+</html>
